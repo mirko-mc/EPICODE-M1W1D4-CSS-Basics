@@ -84,30 +84,52 @@ main {
     box-shadow: 10px 10px 10px #dee2e5;
 }
 
-/* -------- SEZIONE EXTRA -------- */
-.extra{
+.extra {
     width: 100%;
 }
 
-.extra img{
+.extra img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.grid{
+
+.grid {
     background-color: white;
-    width: 20%;
+    width: 23.3%;
+    display: inline-block;
+    margin: 2% 0 1% 0;
+    text-align: center;
+}
+.space{
+    width: 1.6%;
     display: inline-block;
 }
-.row{
+.row {
     display: inline;
 }
-.element{
+
+.element {
     display: inline-block;
     width: 40%;
 }
 
-/* ------------------------------- */
+.grid p {
+    font-weight: bold;
+    text-align: left;
+}
+
+.grid h2 {
+    display: block;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.grid a {
+    display: block;
+    text-align: left;
+    padding: 10% 0 10% 7%;
+}
 
 .titleLeft {
     padding: 22px 0 0 22px;
@@ -118,7 +140,8 @@ main {
     color: black;
 }
 
-.titleLeft a {
+.titleLeft a,
+.grid a {
     font-weight: bold;
     text-decoration: none;
     color: #017185;
